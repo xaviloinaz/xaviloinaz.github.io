@@ -1,0 +1,7 @@
+/* Apply to the entire page */
+body {
+    width: 800px; /* Set the fixed width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 16px; /* Optional: Add some padding for better spacing */
+    /* border: 1px solid #ccc; /* Optional: Add a border for visual clarity */
+}
