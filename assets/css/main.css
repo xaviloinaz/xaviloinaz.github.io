@@ -8,10 +8,12 @@ body {
 
 
 .publication-image {
-    max-width: 100%;
+    max-width: 100%; /* Restrict image width to the container */
+    height: auto; /* Maintain aspect ratio */
     display: block;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden; /* Prevent overflow */
 }
 
 .publication-image-with-caption .caption {
