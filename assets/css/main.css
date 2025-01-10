@@ -5,3 +5,18 @@ body {
     padding: 16px; /* Optional: Add some padding for better spacing */
     /* border: 1px solid #ccc; /* Optional: Add a border for visual clarity */
 }
+
+
+.publication-image {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.publication-image-with-caption .caption {
+    font-size: 0.6em; /* Adjust size to be small */
+    text-align: right; /* Center align the caption */
+    color: #555; /* Optional: make the caption a bit lighter */
+    margin-top: 0.0em; /* Add no spacing between image and caption */
+}
