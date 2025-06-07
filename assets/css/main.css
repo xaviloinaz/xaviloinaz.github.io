@@ -1,24 +1,54 @@
-/* Apply to the entire page */
-body {
-    width: 800px; /* Set the fixed width */
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 16px; /* Optional: Add some padding for better spacing */
-    /* border: 1px solid #ccc; /* Optional: Add a border for visual clarity */
+html {
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.my-image {
+    width: 100%;
+    max-width: 360px;
+    float: right;
+}
 
-.publication-image {
-    max-width: 100%; /* Restrict image width to the container */
-    height: auto; /* Maintain aspect ratio */
+.svelfie-image {
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden; /* Prevent overflow */
 }
 
-.publication-image-with-caption .caption {
-    font-size: 0.6em; /* Adjust size to be small */
-    text-align: right; /* Center align the caption */
-    color: #555; /* Optional: make the caption a bit lighter */
-    margin-top: 0.0em; /* Add no spacing between image and caption */
+.jb-mm-image {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ccg-tmp-image {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gc-merge-image {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.senior-thesis-image {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mentorship-image {
+    max-width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
